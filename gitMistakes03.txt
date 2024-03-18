@@ -1,0 +1,26 @@
+gitMistakes03
+
+12:47 PM 3/18/2024
+
+==++ 12:48 PM 3/18/2024 ++++=
+
+Conclusion. Git submodules are a powerful way to leverage Git as an external dependency management tool. Weigh the pros and cons of Git submodules before using them, as they are an advanced feature and may take a learning curve for team members to adopt.
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+warning: adding embedded git repository: 1a02Howto
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> 1a02Howto
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached 1a02Howto
+hint:
+hint: See "git help submodule" for more information.
+
+==++ end of 12:48 PM 3/18/2024 +++==
