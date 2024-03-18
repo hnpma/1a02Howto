@@ -1,13 +1,10 @@
 github2023sep01
-C:\Users\User\Documents\1a02Howto
-
-D:TCHCPH1A\1ak2023LCsepJava\2023sep7LCjavaPreWOrk\1aaHowTo\github2023sepLC
-
-11:56 PM 8/19/2023
-
-GITHUB account for hnpma emailh2023sep15@outlook.com
-
-
+init
+add .
+commit -m "message"
+remote add origin <copy remote repo URL here >
+push -u origin master
+5 MAIN GIT COMMANDS TO MEMORIZE !
 
 ==++ 12:37 PM 3/18/2024++===
 
