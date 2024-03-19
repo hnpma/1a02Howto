@@ -1,5 +1,5 @@
 Lab5averagesCodeWrongForOnlyRow4
-C:\Users\User\Documents\PyFun2024mar18\PyFunStuff01
+C:\Users\User\Documents\1a02Howto
 
 grid = []
 sums = []
