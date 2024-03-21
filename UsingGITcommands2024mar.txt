@@ -1,0 +1,667 @@
+UsingGITcommand2024mar
+
+
+8:49 AM 3/19/2024
+
+==++ 8:49 AM 3/19/2024 ++====
+
+
+User@LAPTOP-51V5C2DB MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ python3.11
+
+User@LAPTOP-51V5C2DB MINGW64 ~
+$ cd Documents
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ ls
+ 1a02Howto/                'My Music'@        desktop.ini
+ 1aagPython3dot11sep2023/  'My Pictures'@     git09/
+ 1abb01git/                'My Videos'@       javascript-projects/
+ 1abc01Javascript/          Py01mar2024/      myJournalCh07parents/
+ Git/                       PyFun2024mar18/   node-v20.11.0-x64.msi
+ JS2024practice08/          Zoom/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ cd PyFun2024mar18
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+1a02Howto/  PyFun2024mar18.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1a02Howto/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+warning: adding embedded git repository: 1a02Howto
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> 1a02Howto
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached 1a02Howto
+hint:
+hint: See "git help submodule" for more information.
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git rm --cached 1a02Howto
+error: the following file has staged content different from both the
+file and the HEAD:
+    1a02Howto
+(use -f to force removal)
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git rm -f --cached 1a02Howto
+rm '1a02Howto'
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+1a02Howto/  PyFun2024mar18.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ cd ..
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ cd PyFun2024mar18
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+PyFun2024mar18.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+PyFun2024mar18.txt  PyFunStuff01/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ cd PyFunStuff01
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18/PyFunStuff01 (master)
+$ ls
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18/PyFunStuff01 (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18/PyFunStuff01 (master)
+$ git commit -m "added empty folder PyFunStuff01"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18/PyFunStuff01 (master)
+$ git push origin master
+Everything up-to-date
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18/PyFunStuff01 (master)
+$ cd ..
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git commit -m "after adding folder PyFunStuff01"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git push origin master
+Everything up-to-date
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+PyFun2024mar18.txt  PyFunStuff01/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+PyFun2024mar18.txt  PyFunStuff01/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PyFunStuff01/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git commit -m "added new text file to folder PyFUnStuff01"
+[master 5f4a1ec] added new text file to folder PyFUnStuff01
+ 1 file changed, 5 insertions(+)
+ create mode 100644 PyFunStuff01/PyFUnStuff01ab.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 406 bytes | 406.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hnpma/PyFun2024mar18.git
+   5d78816..5f4a1ec  master -> master
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+PyFun2024mar18.txt  PyFunStuff01/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   PyFunStuff01/PyFUnStuff01ab.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PyFunStuff01/2024c18marTarpitTech.png
+        PyFunStuff01/GitCheatSHeet.txt
+        PyFunStuff01/HintPy01.txt
+        PyFunStuff01/HowToGit02.txt
+        PyFunStuff01/HowToPythonIO32.txt
+        PyFunStuff01/IMPhintsPy01.txt
+        PyFunStuff01/PythonCheatSHeet01moshHamedani.txt
+        PyFunStuff01/PythonIOhints01.txt
+        PyFunStuff01/PythonIOhints02youtube.txt
+        PyFunStuff01/TrainingEd01ab.txt
+        PyFunStuff01/cdGITinstall2022feb25Fri.txt
+        PyFunStuff01/processDetails02.txt
+        PyFunStuff01/pythonLab5ForReal01.txt
+        PyFunStuff01/rough01.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git commit -m "added a bunch of files"
+[master 271bbf5] added a bunch of files
+ 15 files changed, 5979 insertions(+)
+ create mode 100644 PyFunStuff01/2024c18marTarpitTech.png
+ create mode 100644 PyFunStuff01/GitCheatSHeet.txt
+ create mode 100644 PyFunStuff01/HintPy01.txt
+ create mode 100644 PyFunStuff01/HowToGit02.txt
+ create mode 100644 PyFunStuff01/HowToPythonIO32.txt
+ create mode 100644 PyFunStuff01/IMPhintsPy01.txt
+ create mode 100644 PyFunStuff01/PythonCheatSHeet01moshHamedani.txt
+ create mode 100644 PyFunStuff01/PythonIOhints01.txt
+ create mode 100644 PyFunStuff01/PythonIOhints02youtube.txt
+ create mode 100644 PyFunStuff01/TrainingEd01ab.txt
+ create mode 100644 PyFunStuff01/cdGITinstall2022feb25Fri.txt
+ create mode 100644 PyFunStuff01/processDetails02.txt
+ create mode 100644 PyFunStuff01/pythonLab5ForReal01.txt
+ create mode 100644 PyFunStuff01/rough01.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git push origin master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 244.91 KiB | 20.41 MiB/s, done.
+Total 18 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/hnpma/PyFun2024mar18.git
+   5f4a1ec..271bbf5  master -> master
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ cd ..
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ ls
+ 1a02Howto/                'My Music'@        desktop.ini
+ 1aagPython3dot11sep2023/  'My Pictures'@     git09/
+ 1abb01git/                'My Videos'@       javascript-projects/
+ 1abc01Javascript/          Py01mar2024/      myJournalCh07parents/
+ Git/                       PyFun2024mar18/   node-v20.11.0-x64.msi
+ JS2024practice08/          Zoom/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ cd 1a02Howto
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ ls
+HowToCreateNewFolderInLocalRepoANdPushItToRemote/  github2023sep01.txt
+gitMistakes03.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   github2023sep01.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        HowToCreateNewFolderInLocalRepoANdPushItToRemote/
+        gitMistakes03.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git commit -m "changed a text file"
+[master 1f1d7f7] changed a text file
+ 7 files changed, 16701 insertions(+), 16218 deletions(-)
+ create mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/2024c18mar01CreatedNewFolderInLocalRepoANdPushedItToRemoteHNPMArepo.png
+ create mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/2024c18mar02CreatedNewFolderInLocalRepoANdPushedItToRemoteHNPMArepo.png
+ create mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/2024c18mar03AddedNewFilesInLocalRepoAndWillPushTHemToRemoteHNPMArepo.png
+ create mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/2024c18mar04VOILAaddedNewFilesInLocalRepoAndPushedTHemToRemoteHNPMArepo.png
+ create mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/github2023sep01.txt
+ create mode 100644 gitMistakes03.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git push origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.04 MiB | 967.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hnpma/1a02Howto.git
+   7bb3aa4..1f1d7f7  master -> master
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ ls
+HowToCreateNewFolderInLocalRepoANdPushItToRemote/  github2023sep01.txt
+gitMistakes03.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git pull origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.06 KiB | 72.00 KiB/s, done.
+From https://github.com/hnpma/1a02Howto
+   1f1d7f7..67ddec4  master     -> origin/master
+Updating 1f1d7f7..67ddec4
+Fast-forward
+ github2023sep01.txt | 17 +++++++----------
+ 1 file changed, 7 insertions(+), 10 deletions(-)
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git commit -m "added image files"
+[master 421846e] added image files
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/2024c18mar05pullChangesImadeOnRemoteRepoToMyLocalFolderANdOpenWIthWIndowsToMakeSUre.png
+ create mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/2024c18mar06git pull PHOTO .png
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 361.34 KiB | 25.81 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/hnpma/1a02Howto.git
+   67ddec4..421846e  master -> master
+branch 'master' set up to track 'origin/master'.
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git commit =m "removed redundant file"
+error: pathspec '=m' did not match any file(s) known to git
+error: pathspec 'removed redundant file' did not match any file(s) known to git
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    HowToCreateNewFolderInLocalRepoANdPushItToRemote/github2023sep01.txt
+
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git commit -m ""
+Aborting commit due to empty commit message.
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git commit -m "rem file"
+[master 0ef27d3] rem file
+ 1 file changed, 16628 deletions(-)
+ delete mode 100644 HowToCreateNewFolderInLocalRepoANdPushItToRemote/github2023sep01.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/hnpma/1a02Howto.git
+   421846e..0ef27d3  master -> master
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ cd ..
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ ls
+ 1a02Howto/                'My Music'@        desktop.ini
+ 1aagPython3dot11sep2023/  'My Pictures'@     git09/
+ 1abb01git/                'My Videos'@       javascript-projects/
+ 1abc01Javascript/          Py01mar2024/      myJournalCh07parents/
+ Git/                       PyFun2024mar18/   node-v20.11.0-x64.msi
+ JS2024practice08/          Zoom/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ cd PyFun2024mar18
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ ls
+PyFun2024mar18.txt  PyFunStuff01/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PyFunStuff01/Adding columns as arrays.txt
+        PyFunStuff01/rough02.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git commit -m "added txt files"
+[master 2838b32] added txt files
+ 2 files changed, 205 insertions(+)
+ create mode 100644 PyFunStuff01/Adding columns as arrays.txt
+ create mode 100644 PyFunStuff01/rough02.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.31 KiB | 1.31 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hnpma/PyFun2024mar18.git
+   271bbf5..2838b32  master -> master
+branch 'master' set up to track 'origin/master'.
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git commit -m "added processing files"
+[master 269da54] added processing files
+ 3 files changed, 929 insertions(+)
+ create mode 100644 PyFunStuff01/GammathuAverage01.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 3.14 KiB | 3.14 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/hnpma/PyFun2024mar18.git
+   2838b32..269da54  master -> master
+branch 'master' set up to track 'origin/master'.
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git commit -m "lab5 wrong row4 average text file"
+[master d4b1edf] lab5 wrong row4 average text file
+ 2 files changed, 150 insertions(+)
+ create mode 100644 PyFunStuff01/Lab5averagesCodeWrongForOnlyRow4.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ git push origin
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.58 KiB | 1.58 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hnpma/PyFun2024mar18.git
+   269da54..d4b1edf  master -> master
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/PyFun2024mar18 (master)
+$ cd ..
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ ls
+ 1a02Howto/                'My Music'@        desktop.ini
+ 1aagPython3dot11sep2023/  'My Pictures'@     git09/
+ 1abb01git/                'My Videos'@       javascript-projects/
+ 1abc01Javascript/          Py01mar2024/      myJournalCh07parents/
+ Git/                       PyFun2024mar18/   node-v20.11.0-x64.msi
+ JS2024practice08/          Zoom/
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents (master)
+$ cd 1a02Howto
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ ls
+HowToCreateNewFolderInLocalRepoANdPushItToRemote/  gitMistakes03.txt
+Lab5averagesCodeWrongForOnlyRow4.txt               github2023sep01.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git add .
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git commit -m "added Lab5averagesCodeWrongForOnlyRow4.txt"
+[master 5d3f080] added Lab5averagesCodeWrongForOnlyRow4.txt
+ 1 file changed, 82 insertions(+)
+ create mode 100644 Lab5averagesCodeWrongForOnlyRow4.txt
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 913 bytes | 913.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hnpma/1a02Howto.git
+   0ef27d3..5d3f080  master -> master
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 986 bytes | 65.00 KiB/s, done.
+From https://github.com/hnpma/1a02Howto
+   5d3f080..344dbca  master     -> origin/master
+Updating 5d3f080..344dbca
+Fast-forward
+ Lab5averagesCodeWrongForOnlyRow4.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@LAPTOP-51V5C2DB MINGW64 ~/Documents/1a02Howto (master)
+$
+
+
+===++ end of 8:49 AM 3/19/2024 +====
