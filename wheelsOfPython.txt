@@ -1,0 +1,30 @@
+wordPhrase = "I love you"
+phrase = []
+user = []
+l = ""
+is_match = bool
+i,j,g,c,w,p,count,u= 0,0,0,0,0,0,0,0.
+print("Let's play WHEEL OF PYTHON !")
+letters = input("Choose 5 letters to help:  ")
+print("Here is your phrase: ")
+p = len(wordPhrase)
+l = len(letters)
+
+
+for u in range(p):#iterate through wordPhrase letters
+    is_match = False
+    for w in range(l):
+        if (wordPhrase[u] == letters[w]):
+            is_match = True
+            user.append(letters[w])
+            break
+        else:
+            is_match = False
+    if(is_match) == False:
+        user.append("?")
+print(user)
+ask = input("Enter your guess :  ")
+if (ask == wordPhrase):
+    print("You win !")
+else:
+    print("Please try again !")
